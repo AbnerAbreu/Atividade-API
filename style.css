@@ -3,6 +3,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url(img/rick-and-morty.jpg);
+    background-size: cover;
 }
 div{
     display: flex;
@@ -11,11 +13,14 @@ div{
     flex-direction: column;    
 }
 input{
-    width:130px;
+    width:180px;
 }
 button{
     margin: 10px;
     width: 60px;
+    background-color: lawngreen;
+    height: 30px;
+    font-size: 12pt;
 }
 
 nav{
@@ -23,4 +28,13 @@ nav{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+h3{
+    font-size: 28pt;
+    color: aquamarine;
+}
+h2{
+    color: red;
+    font-size: 25pt;
 }
